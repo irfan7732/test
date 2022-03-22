@@ -1,5 +1,3 @@
-# Decompile by Mardis (Tools By Kapten-Kaizo)
-# Time Succes decompile : 2022-03-21 23:43:19.624430
 W = '\033[97;1m' 
 R = '\033[91;1m' 
 G = '\033[92;1m' 
@@ -44,7 +42,7 @@ def runtxt(z):
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
 	subprocess.check_output(["am", "start", "https://github.com/irfan7732/test/blob/main/a.txt"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/Shanto.Vau404")
+	exit(" [*] FACEBOOK :  https://www.facebook.com/irfan.7732")
 
 
 def notice():
@@ -53,8 +51,8 @@ def notice():
 
 	runtxt("\n\033[0;91m🧞‍♀️YOU ARE NOT PREMIUM USER ")
 	runtxt("\033[0;93m 🔇 SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN🧞‍♀️ WHATSAPP🔰🥰01960995405")
-	subprocess.check_output(["am", "start", "https://wa.me/+8801960995405"])
+	runtxt("\033[0;92m ADMIN🧞‍♀️ MESSENGER🔰🥰https://m.me/irfan.7732")
+	subprocess.check_output(["am", "start", "https://m.me/irfan.7732"])
 
 
         
@@ -101,7 +99,7 @@ class Main:
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFACEBOOK : SHANTO HASAN   
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFB GROUP : BD TERMUX ZONE
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mGITHUB   : DARK-CYBER-07
-\033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : DON’T TRY TO COPY
+\033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : BYPASS BY IRFAN
 \033[1;90m══════════════════════════════════════════════════
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sSHANTO❌ PROO CLONER❌"%(G,R,G,B,G))
