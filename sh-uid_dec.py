@@ -215,7 +215,7 @@ class Main:
 	def shanto4(self):
 		x = 1111111
 		xx = 9999999
-		#idx = 
+		#idx = input("%s [+] ENTER A DIGIT (1-9): %s"%(Y,G))
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(50000 MAX): \033[0;92m"))
 		if (limit)>50000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
