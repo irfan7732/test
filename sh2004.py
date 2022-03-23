@@ -107,21 +107,25 @@ class Main:
 		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
 		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
 		print("")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2012-15 %s(FREE)"%(R,G,R,Y,B))
-		print("%s [%s2%s]%s CRACK RANDOM FB ID 2011-13 %s(FREE)"%(R,G,R,Y,B))
-		print("%s [%s3%s]%s CRACK RANDOM FB ID 2008-11 %s(FREE)"%(R,G,R,Y,B))
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2012-15 %s(PRO)"%(R,G,R,Y,G))
+		print("%s [%s2%s]%s CRACK RANDOM FB ID 2011-13 %s(PRO)"%(R,G,R,Y,G))
+		print("%s [%s3%s]%s CRACK RANDOM FB ID 2008-11 %s(PRO)"%(R,G,R,Y,G))
 		print("%s [%s4%s]%s CRACK RANDOM FB ID 2009    %s(PRO)"%(R,G,R,Y,G))
 		print("%s [%s5%s]%s CRACK RANDOM FB ID 2005-7 %s(PRO) V1"%(R,G,R,Y,G))
 		print("%s [%s6%s]%s CRACK RANDOM FB ID 2004-6 %s(PRO) V2"%(R,G,R,Y,G))
 		print("%s [%s7%s]%s CRACK RANDOM FB ID 2004-5 %s(PRO) V3"%(R,G,R,Y,G))
-		print("%s [%s8%s]%s CRACK RANDOM FB ID 2003-4 %s(PRO) V3"%(R,G,R,Y,G))
+		print("%s [%s8%s]%s CRACK RANDOM FB ID 2003-4 %s(Maintenance Break) V3"%(R,G,R,Y,G))
 		print("%s [%s9%s]%s CRACK FROM EMAILS %s(PRO)"%(R,G,R,Y,G))
 		print(GET)
 		hoga = input("\n%s [?] CHOICE : "%(B))
 		if hoga in ["", " "]:
 			Main()
 		elif hoga in ["1", "01"]:
-			self.old_13()
+			if basesplit in plr:
+				self.old_11()
+			else: 
+				notice()
+				exit()
 		elif hoga in ["2", "02"]:
 			if basesplit in plr:
 				self.old_11()
