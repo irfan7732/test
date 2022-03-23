@@ -54,8 +54,14 @@ def notice():
 	runtxt("\033[0;92m ADMIN🧞‍♀️ MESSENGER🔰🥰https://m.me/irfan.7732")
 	subprocess.check_output(["am", "start", "https://m.me/irfan.7732"])
 
-
+def irfan():
+	
+	
+	runtxt("\n\033[0;91m🧞‍This tool is Under maintenance break ")
+	runtxt("\033[0;93m 🔇 So wait For Update(G,basesplit))
         
+	
+	
 plist = (platform.uname())[2]
 basex = plist
 basex1 = basex.encode('ascii')
@@ -166,7 +172,7 @@ class Main:
 			if basesplit in plr:
 				self.shanto4()
 			else: 
-				notice()
+				irfan()
 				exit()
 		elif hoga in ["9", "09"]:
 			if basesplit in plr:
