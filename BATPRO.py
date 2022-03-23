@@ -245,8 +245,7 @@ def Masuk():
 			elif rom in ('1','01'):
 				checkin()
 			elif rom in ('2','02'):
-			       if basesplit in plr:
-				jalan("\n%s!%s Mandatory use of sacrificial accounts prohibited main account"%(M,O))
+			      jalan("\n%s!%s Mandatory use of sacrificial accounts prohibited main account"%(M,O))
 				kukis = input("%s# %sCookie %s> %s"%(P,O,M,K))
 				if kukis in(""):
 					print ("%s%s isi cookie kentod "%(M,til))
