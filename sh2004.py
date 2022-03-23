@@ -58,7 +58,7 @@ def irfan():
 	
 	
 	runtxt("\n\033[0;91m🧞‍This tool is Under maintenance break ")
-	runtxt("\033[0;93m 🔇 So wait For Update(G,basesplit))
+	runtxt("\033[0;93m 🔇 So wait For Update >> xx(G,basesplit))
         
 	
 	
