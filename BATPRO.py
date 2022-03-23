@@ -5,41 +5,6 @@
 
 
 
-def helpnote():
-	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://github.com/irfan7732/test/blob/main/a.txt"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/irfan.7732")
-
-
-def notice():
-
- 
-
-	runtxt("\n\033[0;91m🧞‍♀️YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m 🔇 SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN🧞‍♀️ MESSENGER🔰🥰https://m.me/irfan.7732")
-	subprocess.check_output(["am", "start", "https://m.me/irfan.7732"])
-	
-class Main:
-	def __init__(self):
-		self.id = []
-		self.ok = []
-		self.cp = []
-		self.loop = 0
-		try:
-			plr = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').text
-			if basesplit in plr:
-				key = basesplit
-				stat = ("\033[0;92mPREMIUM")
-				FY = '\033[0;93m'
-				FG = '\033[0;92m'
-				GET = '\r'
-			else:
-				key = ("\033[0;91m -")
-				stat = ("\033[0;91mFREE USER")
-				FY = '\033[0;90m'
-				FG = '\033[0;90m'
-				GET = '\033[0;92m [P] GET PREMIUM'
 
 
 import os, sys, subprocess, platform
@@ -2371,3 +2336,38 @@ if __name__=="__main__":
     Taekkk !
 
 """
+def helpnote():
+	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
+	subprocess.check_output(["am", "start", "https://github.com/irfan7732/test/blob/main/a.txt"])
+	exit(" [*] FACEBOOK :  https://www.facebook.com/irfan.7732")
+
+
+def notice():
+
+ 
+
+	runtxt("\n\033[0;91m🧞‍♀️YOU ARE NOT PREMIUM USER ")
+	runtxt("\033[0;93m 🔇 SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
+	runtxt("\033[0;92m ADMIN🧞‍♀️ MESSENGER🔰🥰https://m.me/irfan.7732")
+	subprocess.check_output(["am", "start", "https://m.me/irfan.7732"])
+	
+class Main:
+	def __init__(self):
+		self.id = []
+		self.ok = []
+		self.cp = []
+		self.loop = 0
+		try:
+			plr = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
+			else:
+				key = ("\033[0;91m -")
+				stat = ("\033[0;91mFREE USER")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;92m [P] GET PREMIUM'
