@@ -25,7 +25,7 @@ def jenw():
     sys.stdout.flush()
 
 
-logo3 = '\n\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$\n| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/\n| $$$$| $$  | $$  | $$ /$$/   | $$\n| $$ $$ $$  | $$  | $$$$$/    | $$\n| $$  $$$$  | $$  | $$  $$    | $$\n| $$\  $$$  | $$  | $$\  $$   | $$\n| $$ \  $$ /$$$$$$| $$ \  $$ /$$$$$$\n|__/  \__/|______/|__/  \__/|______/\n                                        \n\x1b[0;35m \n       \x1b[101m\x1b[37;1mWelcome To Super Fast Cloning Tools\x1b[0m\n       \x1b[101m\x1b[37;1m  GIVEN BY Mr. NIKI\x1b[0m\n\x1b[1;91m-----------------------------------------------\n\x1b[0;31m\xe2\x8b\x9f\x1b[0;32m YOUTUBE    : \x1b[0;32m Mr. NIKI  \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mWHATSAAP   :  \x1b[0;32m+8801645137393 \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mFACEBOOK   :  \x1b[0;32mNIKI.CYBER404.OFFICIALS (NIKI) \n\x1b[1;91m-----------------------------------------------'
+logo3 = '\n\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$\n| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/\n| $$$$| $$  | $$  | $$ /$$/   | $$\n| $$ $$ $$  | $$  | $$$$$/    | $$\n| $$  $$$$  | $$  | $$  $$    | $$\n| $$\  $$$  | $$  | $$\  $$   | $$\n| $$ \  $$ /$$$$$$| $$ \  $$ /$$$$$$\n|__/  \__/|______/|__/  \__/|______/\n                                        \n\x1b[0;35m \n       \x1b[101m\x1b[37;1mWelcome To Super Fast Cloning Tools\x1b[0m\n       \x1b[101m\x1b[37;1m  BYPASS BY IRFAN\x1b[0m\n\x1b[1;91m-----------------------------------------------\n\x1b[0;31m\xe2\x8b\x9f\x1b[0;32m YOUTUBE    : \x1b[0;32m Mr. NIKI  \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mWHATSAAP   :  \x1b[0;32m+8801645137393 \n\x1b[0;31m\xe2\x8b\x9f \x1b[0;32mNOTE   :  \x1b[0;32mBYPASS BY IRFAN  (NIKI) \n\x1b[1;91m-----------------------------------------------'
 
 def reg():
     os.system('clear')
@@ -39,7 +39,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
     try:
-        r = requests.get('https://pastebin.com/raw/PaFKrtNi').text
+        r = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').text
     except requests.exceptions.ConnectionError:
         print "No Internet Connection"
         exit()
@@ -53,7 +53,7 @@ def reg():
         print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Copy The ID And Send To Admin'
         print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Your ID\x1b[1;93m : \x1b[1;92m' + to
         raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press enter to send id')
-        os.system('am start https://wa.me/+8801645137393?text=Please%20Give%20Me%20Approve%20Sir:%20' + to)
+        os.system('am start https://m.me/irfan.7732?text=Please%20Give%20Me%20Approve%20Sir:%20' + to)
         reg()
 
 
@@ -65,8 +65,8 @@ def reg2():
     id = uuid.uuid4().hex[:50]
     print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Your ID \x1b[1;93m: \x1b[1;92m' + id
     print ''
-    raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press Enter To Go To WhatsApp')
-    os.system('am start https://wa.me/+8801645137393?text=Please%20Give%20Me%20Approve%20Sir:%20' + id )
+    raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press Enter To Go To Messenger
+    os.system('am start https://m.me/irfan.7732?text=Please%20Give%20Me%20Approve%20Sir:%20' + id )
     sav = open('/sdcard/Download/.restor.jt', 'w')
     sav.write(id)
     sav.close()
@@ -142,7 +142,7 @@ def lisensi():
 
 def login():
     os.system('clear')
-    os.system('xdg-open  https://youtube.com/channel/UCsH0yB-x6fKeu8uQ-uDhTzw')
+    os.system('xdg-open  https://facebook.com/irfan.7732')
     print logo1
     print 47 * '\x1b[1;91m-'
     print '\x1b[1;91m         [\x1b[1;93m*\x1b[1;91m]\x1b[1;92m NIKI OLD UID CRACKING\x1b[1;91m [\x1b[1;93m*\x1b[1;91m]'
