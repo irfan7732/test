@@ -103,7 +103,7 @@ class Main:
 		else:
 			Main()
 
-	def fbtua(self):
+	def fbbaru(self):
 		x = 111111111
 		xx = 999999999
 		idx = "100000" 
