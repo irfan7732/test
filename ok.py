@@ -156,9 +156,9 @@ class Main:
 		except Exception as e:exit(str(e))
 
 	def fbtua(self):
-		x = 111111111
-		xx = 999999999
-		idx = "100000" 
+		x = 1111111
+		xx = 9999999
+		idx = "100" 
 		limit = int(input(" [•] enter the number of id\n [•] Example < 5000 > : "))
 		try:
 			for n in range(limit):
