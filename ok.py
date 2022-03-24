@@ -112,8 +112,9 @@ class Main:
 		try:
 			for n in range(limit):
 				_ = random.randint(v,x,xx)
-				__ = idx
-				self.id.append(__+str(_))
+				__ = random.randint(v)
+				___ = idx
+				self.id.append(___+str(__)+str(_))
 			print(" [•] total id -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n [•] use comma <,> for separator\n [•] Example  : 123456,123456789")
