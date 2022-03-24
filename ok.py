@@ -111,7 +111,7 @@ class Main:
 		limit = int(input(" [•] enter the number of id\n [•] Example < 5000 > : "))
 		try:
 			for n in range(limit):
-				_ = random.randint(v,x,xx)
+				_ = random.randint(x,xx)
 				__ = random.randint(v)
 				___ = idx
 				self.id.append(___+str(__)+str(_))
