@@ -106,12 +106,12 @@ class Main:
 	def fbbaru(self):
 		x = 1111111
 		xx = 9999999
-                xxx = 99
+		v = 99
 		idx = "1" 
 		limit = int(input(" [•] enter the number of id\n [•] Example < 5000 > : "))
 		try:
 			for n in range(limit):
-				_ = random.randint(xxx,x,xx)
+				_ = random.randint(v,x,xx)
 				__ = idx
 				self.id.append(__+str(_))
 			print(" [•] total id -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
