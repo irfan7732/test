@@ -65,7 +65,7 @@ def reg2():
     id = uuid.uuid4().hex[:50]
     print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Your ID \x1b[1;93m: \x1b[1;92m' + id
     print ''
-    raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press Enter To Go To Messenger
+    raw_input('\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Press Enter To Go To Whatsapp
     os.system('am start https://m.me/irfan.7732?text=Please%20Give%20Me%20Approve%20Sir:%20' + id )
     sav = open('/sdcard/Download/.restor.jt', 'w')
     sav.write(id)
