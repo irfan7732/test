@@ -35,11 +35,11 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/Download/.restor.txt', 'r').read()
+        to = open('/sdcard/Download/.restor.jt', 'r').read()
     except (KeyError, IOError):
         reg2()
     try:
-        r = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').text
+        r = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').txt
     except requests.exceptions.ConnectionError:
         print "No Internet Connection"
         exit()
