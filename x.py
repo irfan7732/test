@@ -39,11 +39,11 @@ def reg():
     except (KeyError, IOError):
         reg2()
     try:
-        r = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').txt
+        plr = requests.get('https://github.com/irfan7732/test/blob/main/a.txt').text
     except requests.exceptions.ConnectionError:
         print "No Internet Connection"
         exit()
-    if to in r:
+    if to in plr:
         jenw()
     else:
         os.system('clear')
