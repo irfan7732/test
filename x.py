@@ -35,7 +35,7 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/Download/.restor.jt', 'r').read()
+        to = open('/sdcard/Download/.restor.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
     try:
